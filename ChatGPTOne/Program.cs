@@ -8,7 +8,7 @@ namespace ChatGPTOne
         {
              while (true)
             {
-                Console.Write("Place your question (EXIT to leave): ");
+                Console.Write("Place your question or write EXIT to leave: ");
                 string question = Console.ReadLine();
                 string response;
 
@@ -34,7 +34,7 @@ namespace ChatGPTOne
                 {
                     response = "Well I can't recognise your question... Just kidding, i just don't like you";
                 }
-                else if (question == "Do you like other things at leas?")
+                else if (question == "Do you like other things at least?")
                 {
                     response = "Yes, I love everything where u are not included in.";
                 }

@@ -52,6 +52,8 @@ namespace ValoresEspeciais
             float underflowFloat = float_min / 50000.0f;
             Console.WriteLine($"float máx * 40.0f overflow: {overflowFloat:F3}");
             Console.WriteLine($"float mínimo / 50000.0f underflow: {underflowFloat:F3}");
+            float overflowInfinity = float_max * float_max;
+            Console.WriteLine($"float máx * máx overflow: {overflowInfinity:F3}");
             double double_max = double.MaxValue;
             double double_min = double.MinValue;
             Console.WriteLine($"double máximo: {double_max:F3}");
